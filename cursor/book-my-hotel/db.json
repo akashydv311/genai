@@ -1,0 +1,323 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Taj Palace Hotel",
+      "location": "Mumbai, Maharashtra",
+      "rating": 4.9,
+      "price": 15000,
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop",
+      "description": "Luxury 5-star hotel in the heart of Mumbai with stunning city views and world-class amenities.",
+      "amenities": ["Free WiFi", "Swimming Pool", "Spa & Wellness", "Fine Dining", "Gym", "Room Service", "Concierge"],
+      "rooms": [
+        {
+          "id": "1-1",
+          "type": "Deluxe King",
+          "price": 15000,
+          "capacity": 2,
+          "available": true,
+          "features": ["City View", "Balcony", "King Bed", "Marble Bathroom"]
+        },
+        {
+          "id": "1-2",
+          "type": "Executive Suite",
+          "price": 25000,
+          "capacity": 4,
+          "available": true,
+          "features": ["Panoramic View", "Living Room", "Kitchenette", "Butler Service"]
+        },
+        {
+          "id": "1-3",
+          "type": "Presidential Suite",
+          "price": 50000,
+          "capacity": 6,
+          "available": true,
+          "features": ["Private Terrace", "Dining Room", "Study", "Personal Chef"]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r1-1",
+          "userName": "Priya Sharma",
+          "rating": 5,
+          "comment": "Exceptional service and luxurious accommodations. The spa was amazing!",
+          "date": "2024-01-15"
+        },
+        {
+          "id": "r1-2",
+          "userName": "Rajesh Kumar",
+          "rating": 4,
+          "comment": "Great location and beautiful rooms. Food could be better.",
+          "date": "2024-01-10"
+        }
+      ],
+      "locationDetails": {
+        "address": "Apollo Bunder, Mumbai, Maharashtra 400001",
+        "coordinates": {
+          "lat": 18.9217,
+          "lng": 72.8347
+        },
+        "nearbyAttractions": ["Gateway of India", "Marine Drive", "Colaba Causeway", "Taj Mahal Palace"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Oberoi Udaivilas",
+      "location": "Udaipur, Rajasthan",
+      "rating": 4.8,
+      "price": 25000,
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+      "description": "Palace-style luxury resort overlooking Lake Pichola with traditional Rajasthani architecture.",
+      "amenities": ["Lake View", "Infinity Pool", "Ayurvedic Spa", "Heritage Tours", "Boat Rides", "Cultural Shows"],
+      "rooms": [
+        {
+          "id": "2-1",
+          "type": "Lake View Suite",
+          "price": 25000,
+          "capacity": 2,
+          "available": true,
+          "features": ["Lake Pichola View", "Private Terrace", "Traditional Décor", "Spa Access"]
+        },
+        {
+          "id": "2-2",
+          "type": "Palace Suite",
+          "price": 40000,
+          "capacity": 4,
+          "available": true,
+          "features": ["Palace Architecture", "Courtyard View", "Butler Service", "Private Pool"]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r2-1",
+          "userName": "Meera Patel",
+          "rating": 5,
+          "comment": "Absolutely magical! The lake view and traditional architecture are breathtaking.",
+          "date": "2024-01-12"
+        }
+      ],
+      "locationDetails": {
+        "address": "Haridasji Ki Magri, Udaipur, Rajasthan 313001",
+        "coordinates": {
+          "lat": 24.5854,
+          "lng": 73.7125
+        },
+        "nearbyAttractions": ["City Palace", "Lake Pichola", "Jag Mandir", "Fateh Sagar"]
+      }
+    },
+    {
+      "id": 3,
+      "name": "The Leela Palace",
+      "location": "New Delhi, Delhi",
+      "rating": 4.7,
+      "price": 18000,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+      "description": "Regal luxury hotel in the diplomatic enclave with Mughal-inspired design and gardens.",
+      "amenities": ["Diplomatic Location", "Mughal Gardens", "Spa", "Multiple Restaurants", "Business Center", "Valet Parking"],
+      "rooms": [
+        {
+          "id": "3-1",
+          "type": "Deluxe Room",
+          "price": 18000,
+          "capacity": 2,
+          "available": true,
+          "features": ["Garden View", "Mughal Décor", "Work Desk", "Bathroom Amenities"]
+        },
+        {
+          "id": "3-2",
+          "type": "Executive Suite",
+          "price": 30000,
+          "capacity": 3,
+          "available": true,
+          "features": ["Diplomatic View", "Living Area", "Kitchenette", "Concierge Service"]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r3-1",
+          "userName": "Amit Singh",
+          "rating": 4,
+          "comment": "Excellent location for business travelers. Gardens are beautiful.",
+          "date": "2024-01-08"
+        }
+      ],
+      "locationDetails": {
+        "address": "Diplomatic Enclave, New Delhi, Delhi 110021",
+        "coordinates": {
+          "lat": 28.6139,
+          "lng": 77.2090
+        },
+        "nearbyAttractions": ["India Gate", "Rashtrapati Bhavan", "Lodhi Gardens", "Khan Market"]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Kumarakom Lake Resort",
+      "location": "Kerala, South India",
+      "rating": 4.6,
+      "price": 12000,
+      "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&h=600&fit=crop",
+      "description": "Backwater resort with traditional Kerala architecture and Ayurvedic wellness treatments.",
+      "amenities": ["Backwater Views", "Ayurvedic Spa", "Houseboat Tours", "Traditional Massage", "Yoga Classes", "Local Cuisine"],
+      "rooms": [
+        {
+          "id": "4-1",
+          "type": "Backwater Villa",
+          "price": 12000,
+          "capacity": 2,
+          "available": true,
+          "features": ["Backwater View", "Traditional Architecture", "Private Garden", "Ayurvedic Access"]
+        },
+        {
+          "id": "4-2",
+          "type": "Heritage Suite",
+          "price": 20000,
+          "capacity": 4,
+          "available": true,
+          "features": ["Heritage Building", "Courtyard", "Kitchen", "Cultural Activities"]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r4-1",
+          "userName": "Lakshmi Nair",
+          "rating": 5,
+          "comment": "Peaceful backwater experience. Ayurvedic treatments are authentic and relaxing.",
+          "date": "2024-01-05"
+        }
+      ],
+      "locationDetails": {
+        "address": "Kumarakom, Kottayam, Kerala 686563",
+        "coordinates": {
+          "lat": 9.5916,
+          "lng": 76.5222
+        },
+        "nearbyAttractions": ["Vembanad Lake", "Kumarakom Bird Sanctuary", "Alleppey Backwaters", "Kerala Houseboats"]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Wildflower Hall",
+      "location": "Shimla, Himachal Pradesh",
+      "rating": 4.5,
+      "price": 22000,
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+      "description": "Mountain resort with panoramic views of the Himalayas and colonial charm.",
+      "amenities": ["Mountain Views", "Adventure Sports", "Spa", "Fine Dining", "Trekking", "Skiing (Winter)"],
+      "rooms": [
+        {
+          "id": "5-1",
+          "type": "Mountain View Room",
+          "price": 22000,
+          "capacity": 2,
+          "available": true,
+          "features": ["Himalayan View", "Fireplace", "Balcony", "Mountain Décor"]
+        },
+        {
+          "id": "5-2",
+          "type": "Adventure Suite",
+          "price": 35000,
+          "capacity": 3,
+          "available": true,
+          "features": ["Panoramic View", "Adventure Gear", "Guided Tours", "Spa Access"]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r5-1",
+          "userName": "Arjun Thakur",
+          "rating": 4,
+          "comment": "Breathtaking mountain views! Adventure activities are well organized.",
+          "date": "2024-01-02"
+        }
+      ],
+      "locationDetails": {
+        "address": "Chharabra, Shimla, Himachal Pradesh 171012",
+        "coordinates": {
+          "lat": 31.1048,
+          "lng": 77.1734
+        },
+        "nearbyAttractions": ["Mall Road", "Christ Church", "Jakhu Temple", "Kufri"]
+      }
+    }
+  ],
+  "bookings": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "phone": "+91-98765-43210",
+      "preferences": {
+        "favoriteDestinations": ["Mumbai", "Udaipur"],
+        "roomPreferences": ["King Bed", "City View"],
+        "amenities": ["Spa", "Pool"]
+      }
+    }
+  ],
+  "amenities": [
+    "Free WiFi",
+    "Swimming Pool",
+    "Spa & Wellness",
+    "Fine Dining",
+    "Gym",
+    "Room Service",
+    "Concierge",
+    "Lake View",
+    "Infinity Pool",
+    "Ayurvedic Spa",
+    "Heritage Tours",
+    "Boat Rides",
+    "Cultural Shows",
+    "Diplomatic Location",
+    "Mughal Gardens",
+    "Business Center",
+    "Valet Parking",
+    "Backwater Views",
+    "Houseboat Tours",
+    "Traditional Massage",
+    "Yoga Classes",
+    "Local Cuisine",
+    "Mountain Views",
+    "Adventure Sports",
+    "Trekking",
+    "Skiing"
+  ],
+  "locations": [
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "region": "West India",
+      "popularity": 5,
+      "bestTime": "October to March"
+    },
+    {
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "region": "North India",
+      "popularity": 4,
+      "bestTime": "October to March"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "region": "North India",
+      "popularity": 4,
+      "bestTime": "October to March"
+    },
+    {
+      "city": "Kerala",
+      "state": "Kerala",
+      "region": "South India",
+      "popularity": 4,
+      "bestTime": "November to March"
+    },
+    {
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "region": "North India",
+      "popularity": 3,
+      "bestTime": "March to June"
+    }
+  ]
+} 
