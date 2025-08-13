@@ -3,16 +3,16 @@
 
 ## 📦 Installation
 
-# Clone the repository
+### Clone the repository
 git clone git@github.com:akash/hotel-booking-app.git
 
-# Navigate into the project directory
+#### Navigate into the project directory
 cd hotel-booking-app
 
-# Install dependencies
+#### Install dependencies
 npm install
 
-# run app
+#### run app
 npm run dev
 
 
